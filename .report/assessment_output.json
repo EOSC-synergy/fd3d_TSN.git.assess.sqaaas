@@ -1,6 +1,6 @@
 {
     "meta": {
-        "version": "3.1.0",
+        "version": "3.2.1",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas/master/.report/assessment_output.json"
     },
     "repository": [
@@ -49,10 +49,10 @@
                                     "name": "QC.Acc github.com/JanPremus/fd3d_TSN git",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "git rev-parse --is-inside-work-tree"
+                                        "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -104,7 +104,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -151,7 +151,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -198,7 +198,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -239,10 +239,10 @@
                                     "name": "QC.Doc github.com/JanPremus/fd3d_TSN git",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "git rev-parse --is-inside-work-tree"
+                                        "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -262,6 +262,15 @@
                 "percentage": 25,
                 "total_subcriteria": 4,
                 "success_subcriteria": 1
+            }
+        },
+        "QC.Lic": {
+            "valid": false,
+            "subcriteria": {},
+            "coverage": {
+                "percentage": 0,
+                "total_subcriteria": 0,
+                "success_subcriteria": 0
             }
         },
         "QC.Ver": {
@@ -294,7 +303,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -337,7 +346,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -380,7 +389,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fd3d_TSN.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fd3d_TSN.git.assess.sqaaas"
@@ -489,64 +498,6 @@
                 "total_subcriteria": 1,
                 "success_subcriteria": 0
             }
-        },
-        "QC.Lic": {
-            "valid": false,
-            "subcriteria": {
-                "QC.Lic01": {
-                    "description": "Is code licensed to be freely used, modified and distributed by others?",
-                    "valid": false,
-                    "hint": "<p>Your source code repository shall be distributed under an open source license for this subcriterion to pass successfully. Be sure to have a license file present in the code repository matching the name <code>LICENSE</code> with optional extensions (depending on the format used): <code>[.md|.rst|.txt]</code>.</p><p>Valid licenses are any of those approved either by the <a href=\"https://opensource.org/licenses\" target=\"_blank\">Open Source Initiative</a> and/or the Free Software Foundation <a href=\"https://www.gnu.org/licenses/license-list.html\" target=\"_blank\"></a>. You can also check the <a href=\"https://choosealicense.com/\" target=\"_blank\">choosealicense.com</a> site</p>",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                },
-                "QC.Lic01.1": {
-                    "description": "Is LICENSE file placed in the root path of the code repository?",
-                    "valid": false,
-                    "hint": "Most social coding platforms require the license file to placed in the root path of the code repository, so it is a good practice to use this location by default. Allowed file names are <code>LICENSE</code>, <code>LICENSE.md</code>, <code>LICENSE.rst</code>, <code>LICENSE.txt</code>",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                },
-                "QC.Lic02": {
-                    "description": "Does the code use a license approved by Open Source Initiative?",
-                    "valid": false,
-                    "hint": "The <a href=\"https://opensource.org/\" target=\"_blank\">Open Source Initiative (OSI)</a> sets out the requirements for software to be legally declared as Open Source. The license in use shall be in the list of <a href=\"https://opensource.org/license-list.html\" target=\"_blank\">OSI-approved licenses</a> for this criterion to be successful",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                },
-                "QC.Lic02.1": {
-                    "description": "Does the code use an Open Source Initiative's popular-recognized license?",
-                    "valid": false,
-                    "hint": "The Open Source Initiative (OSI) sets out the requirements for software to be legally declared as Open Source. OSI provides a list of popular licenses that shall match most of the demands. The license in use shall be in the list of <a href=\"https://opensource.org/license-list.html\" target=\"_blank\">OSI popular licenses</a> for this criterion to be successful",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                }
-            },
-            "coverage": {
-                "percentage": 0,
-                "total_subcriteria": 4,
-                "success_subcriteria": 0
-            }
         }
     },
     "badge": {
@@ -554,8 +505,8 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
-                        "QC.Acc",
                         "QC.Lic",
+                        "QC.Acc",
                         "QC.Doc"
                     ],
                     "missing": [
@@ -568,16 +519,16 @@
                 },
                 "silver": {
                     "to_fulfill": [
+                        "QC.Ver",
                         "QC.Acc",
                         "QC.Lic",
                         "QC.Doc",
-                        "QC.Ver",
                         "QC.Met"
                     ],
                     "missing": [
+                        "QC.Ver",
                         "QC.Lic",
                         "QC.Doc",
-                        "QC.Ver",
                         "QC.Met"
                     ],
                     "fulfilled": [
@@ -586,22 +537,22 @@
                 },
                 "gold": {
                     "to_fulfill": [
+                        "QC.Ver",
                         "QC.Acc",
+                        "QC.Sty",
+                        "QC.Uni",
                         "QC.Lic",
                         "QC.Doc",
-                        "QC.Sty",
-                        "QC.Ver",
                         "QC.Sec",
-                        "QC.Uni",
                         "QC.Met"
                     ],
                     "missing": [
+                        "QC.Ver",
+                        "QC.Sty",
+                        "QC.Uni",
                         "QC.Lic",
                         "QC.Doc",
-                        "QC.Sty",
-                        "QC.Ver",
                         "QC.Sec",
-                        "QC.Uni",
                         "QC.Met"
                     ],
                     "fulfilled": [
