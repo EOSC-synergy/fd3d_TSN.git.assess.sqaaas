@@ -5,5 +5,5 @@
 
 (
 cd github.com/JanPremus/fd3d_TSN &&
-    git rev-parse --is-inside-work-tree
+    git rev-parse --is-inside-work-tree 
 )

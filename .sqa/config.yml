@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.1.1
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/JanPremus/fd3d_TSN:
       branch: master
@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/JanPremus/fd3d_TSN git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-chocolate-sheepdog.sh
-        container: qc.acc_chewy-taupe-mastiff
+        - /usr/bin/env sh .sqa/script.slaphappy-chestnut-alligator.sh
+        container: qc.acc_queasy-lemon-affenpinscher
   QC.Doc:
     repos:
       github.com/JanPremus/fd3d_TSN find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-corn-capybara.sh
-        container: qc.doc_shabby-burgundy-fossa
+        - /usr/bin/env sh .sqa/script.wimpy-olive-macaque.sh
+        container: qc.doc_squirrely-pumpkin-kangaroo
       github.com/JanPremus/fd3d_TSN git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-lemon-coral.sh
-        container: qc.doc_sunny-cerise-eel
+        - /usr/bin/env sh .sqa/script.hilly-flax-devil.sh
+        container: qc.doc_snoopy-lavender-tamarin
   QC.Lic:
     repos:
       github.com/JanPremus/fd3d_TSN licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-bistre-hound.sh
-        container: qc.lic_greasy-cinnabar-corgi
+        - /usr/bin/env sh .sqa/script.zippy-crimson-newt.sh
+        container: qc.lic_flimsy-ivory-dormouse
   QC.Ver:
     repos:
       github.com/JanPremus/fd3d_TSN get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-goldenrod-chinook.sh
-        container: qc.ver_snazzy-olivine-kiwi
+        - /usr/bin/env sh .sqa/script.scaly-tomato-insect.sh
+        container: qc.ver_hasty-puce-mist
 timeout: 5400

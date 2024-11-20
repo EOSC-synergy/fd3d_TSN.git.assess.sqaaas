@@ -5,5 +5,5 @@
 
 (
 cd github.com/JanPremus/fd3d_TSN &&
-    licensee detect . --confidence 60 --json
+    licensee detect . --confidence 60 --json 
 )
