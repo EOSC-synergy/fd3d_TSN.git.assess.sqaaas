@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/JanPremus/fd3d_TSN git:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-chestnut-alligator.sh
-        container: qc.acc_queasy-lemon-affenpinscher
+        - /usr/bin/env sh .sqa/script.sickly-vermilion-millipede.sh
+        container: qc.acc_fuzzy-lilac-earwig
   QC.Doc:
     repos:
       github.com/JanPremus/fd3d_TSN find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-olive-macaque.sh
-        container: qc.doc_squirrely-pumpkin-kangaroo
+        - /usr/bin/env sh .sqa/script.trippy-cornflower-ladybird.sh
+        container: qc.doc_flimsy-ochre-heron
       github.com/JanPremus/fd3d_TSN git:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-flax-devil.sh
-        container: qc.doc_snoopy-lavender-tamarin
+        - /usr/bin/env sh .sqa/script.lovely-eggplant-wasp.sh
+        container: qc.doc_trippy-dandelion-wrasse
   QC.Lic:
     repos:
       github.com/JanPremus/fd3d_TSN licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-crimson-newt.sh
-        container: qc.lic_flimsy-ivory-dormouse
+        - /usr/bin/env sh .sqa/script.lovely-smalt-corgi.sh
+        container: qc.lic_grumpy-tangerine-lemming
   QC.Ver:
     repos:
       github.com/JanPremus/fd3d_TSN get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-tomato-insect.sh
-        container: qc.ver_hasty-puce-mist
+        - /usr/bin/env sh .sqa/script.nerdy-persimmon-squirrel.sh
+        container: qc.ver_scaly-maroon-olm
 timeout: 5400
